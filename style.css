@@ -12,4 +12,17 @@ header{
 }
 header img{
   width: 100px;
+  justify-items: flex-start;
+}
+
+header a{
+  color: #fff;
+  text-decoration: none;
+  
+}
+
+.slidder{
+  width: 100vw;
+  height: 50vh;
+  
 }

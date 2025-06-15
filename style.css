@@ -61,10 +61,12 @@ body{
 }
 
 .highlight {
+  font-family: 'futurak';
   text-align: center;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color: #fff;
+
 }
 
 h1 {
@@ -135,3 +137,242 @@ h2 {
 .brand-button button:hover {
   background-color: #444;
 }
+
+
+
+
+
+
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.h1-cont3{
+  font-family: 'futurak';
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+
+.h2-cont3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.p-cont3{
+  text-align: center;
+  font-size: medium;
+  color: aliceblue;
+}
+.info {
+  min-width: 300px;
+  padding: 20px;
+}
+
+.h2-left {
+  color: #e53935;
+  letter-spacing: 5px;
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+.h1-left {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-family: 'futurak';
+  font-size: 3.5rem;
+}
+
+.info p {
+  font-size: 16px;
+  margin: 8px 0;
+  color: white;
+}
+
+.info button {
+  margin-top: 50px;
+  padding: 10px 20px;
+  background-color: #111;
+  border: 2px solid white;
+  color: white;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.info button:hover {
+  background-color: #e53935;
+  border-color: #e53935;
+}
+
+.image {
+  min-width: 300px;
+  padding: 20px;
+  margin: 40px;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+.branches {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.branch {
+  margin: 40PX;
+  background-color: #111;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 350px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  text-align: center;
+  padding-bottom: 20px;
+  transition: transform 0.3s;
+}
+
+.branch:hover {
+  transform: translateY(-10px);
+}
+
+.branch img {
+  width: 100%;
+  height: auto;
+  border-bottom: 3px solid #222;
+}
+
+.location {
+  color: #e53935;
+  letter-spacing: 5px;
+  margin: 20px 0 10px;
+  font-size: 16px;
+}
+
+.branch h1 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.branch p {
+  font-size: 16px;
+  margin: 8px 20px;
+  color: wheat;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.button button {
+  background-color: #111;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.button button:hover {
+  background-color: #e53935;
+  border-color: #e53935;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+
+
+
+
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px 100px;
+  border-top: 1px solid #333;
+
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin-left: 50px;
+  color: white;
+}
+
+.footer-logo img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-section p {
+  color: #aaa;
+  line-height: 1.6;
+}
+
+.footer-links a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-weight: 400;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #e53935;
+}
+
+.footer-section h3 {
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #333;
+  padding: 15px 0;
+  font-size: 14px;
+  color: white;
+}
+

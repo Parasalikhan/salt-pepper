@@ -8,7 +8,7 @@ body{
 .container{
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: #111;
   text-align: center;
   padding: 20px 75px;
 }
@@ -36,11 +36,12 @@ body{
   font-weight: 500;
 }
 
-.btn-white{
+button{
   border-radius: 50px;
   border: solid 1px white;
-  padding: 10px 20px;
+  padding: 20px 20px;
   background-color: black;
+  text-decoration: none;
   color: white;
   font-weight: 500;
   cursor: pointer;
@@ -376,3 +377,100 @@ h2 {
   color: white;
 }
 
+
+
+
+
+/* Franchise */
+.form-container {
+            background-color: #000; /* Black background */
+            padding: 40px;
+            border-radius: 12px;
+            margin-left: 250PX;
+            max-width: 900px;
+            width: 100%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .form-title {
+            font-family: serif; /* Using a generic serif for a distinguished look */
+            font-size: 2.5rem; /* Larger font size */
+            font-weight: 700;
+            color: #FFD700; /* Gold color for the title */
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #fff; /* White label text */
+        }
+        .input-wrapper {
+            position: relative;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #333; /* Darker border for inputs */
+            border-radius: 8px;
+            background-color: white; /* Dark background for inputs */
+            color: black; /* White text in inputs */
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+        .form-group input:focus {
+            border-color: #FFD700; /* Gold border on focus */
+        }
+        .submit-button {
+            width: 200px;
+            padding: 15px 0;
+            background-color: #FFD700; /* Gold button */
+            color: #000; /* Black text on button */
+            font-weight: 700;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            display: block;
+            margin-top: 30px;
+            text-align: center;
+           
+        }
+        .submit-button:hover {
+            background-color: #e0b800; /* Slightly darker gold on hover */
+        }
+        /* Style for the info icon (exclamation mark in a circle) */
+        .info-icon {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #ff4d4d; /* Red background for the icon */
+            color: #fff;
+            font-size: 0.75rem;
+            font-weight: bold;
+            margin-left: 8px;
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        /* Grid layout for form fields */
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr; /* Single column by default for small screens */
+            gap: 24px; /* gap-y-6 equivalent */
+            column-gap: 40px; /* gap-x-10 equivalent */
+        }
+
+        @media (min-width: 768px) { /* md: breakpoint for two columns */
+            .form-grid {
+                grid-template-columns: 1fr 1fr; /* Two columns on medium screens and up */
+            }
+        }

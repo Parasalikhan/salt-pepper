@@ -8,7 +8,7 @@ body{
 .container{
   display: flex;
   justify-content: space-between;
-  background-color: #111;
+  background-color:#222;
   text-align: center;
   padding: 20px 75px;
 }
@@ -221,6 +221,8 @@ h2 {
 }
 
 .image img {
+  margin-left: 100px
+  ;
   width: 100%;
   border-radius: 10px;
 }
